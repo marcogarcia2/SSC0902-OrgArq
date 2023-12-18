@@ -36,7 +36,7 @@ main:
     call Imprimestr
 
     loadn r0, #40   ; Posicao da nave na tela
-	loadn r1, #'>'	    ; Char da Nave
+	loadn r1, #'@'	    ; Char da Nave
 	loadn r2, #32	    ; Char espaço em branco
     loadn r5, #1199     ; Fim da tela
 
